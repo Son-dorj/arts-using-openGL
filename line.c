@@ -3,8 +3,9 @@
 
 void line1()
 {
+	int x=100;
 	glBegin(GL_LINES);
-	glVertex2f(-100,-100);
-	glVertex2f(100,100);
+	glVertex2f($w,$h);
+	glVertex2f(-$w,-$h);
 	glEnd();
 }
