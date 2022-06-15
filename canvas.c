@@ -8,7 +8,7 @@ void display(void)
 	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 	glLoadIdentity();
 	
-	pattern1();
+	line1();
 	glutSwapBuffers();
 }
 void myReshape(int w,int h)// common reshape func for all prgrms
