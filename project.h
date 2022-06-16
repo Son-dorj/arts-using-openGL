@@ -3,6 +3,9 @@
 #define $w 500
 #define $h 500
 #define pi 3.142857
+int points=5000;
 void line();
 void pattern1();
+void fractal1();
+void fractal2();
 #endif

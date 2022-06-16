@@ -3,12 +3,14 @@
 #define X 500
 void line1();
 void pattern1();
+void fractal1();
+void fractal2();
 void display(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 	glLoadIdentity();
 	
-	line1();
+	fractal2();
 	glutSwapBuffers();
 }
 void myReshape(int w,int h)// common reshape func for all prgrms
