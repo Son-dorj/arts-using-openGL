@@ -22,6 +22,18 @@ void display(void)
 	}
 	glutSwapBuffers();
 }
+void MyMouse(int button, int state, int x, int y)
+{
+	if(button==GLUT_LEFT_BUTTON && state==GLUT_DOWN)
+	{
+    	current=rand()%4;	glutPostRedisplay();
+    }
+    if(button==GLUT_RIGHT_BUTTON && state==GLUT_DOWN)
+	{
+    	current=rand()%4;	glutPostRedisplay();
+    }
+}
+
 void myReshape(int w,int h)// common reshape func for all prgrms
 {
 	glViewport(0,0,w,h);
@@ -42,6 +54,7 @@ glutCreateWindow("color cube viewer");
 glutReshapeFunc(myReshape);
 glutDisplayFunc(display);
 glEnable(GL_DEPTH_TEST);
+glutMouseFunc(MyMouse);
 glutMainLoop();
 return 0;
 }
