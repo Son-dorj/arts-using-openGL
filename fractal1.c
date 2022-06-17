@@ -1,5 +1,6 @@
 #include "project.h"
 #include<GL/glut.h>
+int points=5000;
 void fractal1()
 {
 	typedef GLfloat point2[2];

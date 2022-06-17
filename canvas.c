@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <GL/glut.h>
+//#include "project.h"
 #define X 500
+#define TOTAL 4
+int current=2;
 void line1();
 void pattern1();
 void fractal1();
@@ -9,8 +12,14 @@ void display(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 	glLoadIdentity();
-	
-	fractal2();
+	switch(current)
+	{
+		case 0:	line1();	break;
+		case 1: pattern1();	break;
+		case 2: fractal1();	break;
+		case 3: fractal2();	break;
+		default:break;
+	}
 	glutSwapBuffers();
 }
 void myReshape(int w,int h)// common reshape func for all prgrms

@@ -4,6 +4,7 @@
 void fractal2()
 {
 	typedef GLfloat point2[3];
+	int points=5000;
     point2 vertices[6]={{0,500},{500,250},{500,-250},{0,-500},{-500,-250},{-500,250}}; 
     int j, k;
     int rand();      
