@@ -1,5 +1,4 @@
 #include "project.h"
-#include<GL/glut.h>
 
 void line()
 {

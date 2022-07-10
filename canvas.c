@@ -1,18 +1,16 @@
-#include <stdio.h>
-#include <GL/glut.h>
 #include "project.h"
+
 #define X 500
 #define TOTAL 4
 int current=0;
 void myinit()
 {
-
 glClearColor(0,0,0,1.0);
 glColor3f(1.0,0.0,0.0);
 glPointSize(1.0);
 glMatrixMode(GL_PROJECTION);
 glLoadIdentity();
-gluOrtho2D(0.0,499.0,0.0,499.0);
+glOrtho(0.0,499.0,0.0,499.0,-2000,2000);
 }
 void display(void)
 {
@@ -20,12 +18,18 @@ void display(void)
 	glLoadIdentity();
 	switch(current)
 	{
-		case 0:	home();	break;
-		case 1:	line();	break;
-		case 2: spiral();	break;
-		case 3: fern();	break;
-		case 4: vicsek();	break;
-		default:break;
+		case 0:	home();			break;
+		case 1:	line();			break;
+		case 2: spiral();		break;
+		case 3: fern();			break;
+		case 4: vicsek();		break;
+		case 5: cafeWall();		break;
+		case 6: hermanDot();	break;
+		case 7: cubeTree();		break;
+		case 8: logSpiral();	break;
+		case 9: taurus();	break;
+		case 10: sphere();	break;
+		default:				break;
 	}
 	glutSwapBuffers();
 }
@@ -48,6 +52,7 @@ void myReshape(int w,int h)
 int main(int argc,char** argv)
 {
 glutInit(&argc,argv);
+myinit();
 glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
 glutInitWindowSize(500,500);
 glutCreateWindow("Arts Using OpenGL");
@@ -56,11 +61,17 @@ glutAddMenuEntry("line",1);
 glutAddMenuEntry("spiral",2);
 glutAddMenuEntry("fern fractal",3);
 glutAddMenuEntry("vicsek-5",4);
+glutAddMenuEntry("CafeWall",5);
+glutAddMenuEntry("hermann dot",6);
+glutAddMenuEntry("cubeTree",7);
+glutAddMenuEntry("Logarithmic Spiral",8);
+glutAddMenuEntry("taurus",9);
+glutAddMenuEntry("sphere",10);
 glutAttachMenu(GLUT_RIGHT_BUTTON);
 glutReshapeFunc(myReshape);
 glutDisplayFunc(display);
 glEnable(GL_DEPTH_TEST);
-myinit();
+
 glutMainLoop();
 return 0;
 }

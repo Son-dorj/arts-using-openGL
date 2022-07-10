@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16.3)
 
 project(Mini)
 
-add_executable(${PROJECT_NAME} canvas.c spiral.c line.c fern.c vicsek.c home.c)
+add_executable(${PROJECT_NAME} canvas.c spiral.c line.c fern.c vicsek.c home.c cafeWall.c hermanDot.c cubeTree.c logSpiral.c taurus.c sphere.c)
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
 include_directories(${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS} ${GLU_INCLUDE_DIRS})

@@ -139,13 +139,118 @@ CMakeFiles/Mini.dir/vicsek.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mini.dir/vicsek.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sunil/Development/artsOpengl/vicsek.c -o CMakeFiles/Mini.dir/vicsek.c.s
 
+CMakeFiles/Mini.dir/home.c.o: CMakeFiles/Mini.dir/flags.make
+CMakeFiles/Mini.dir/home.c.o: ../../home.c
+CMakeFiles/Mini.dir/home.c.o: CMakeFiles/Mini.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Mini.dir/home.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Mini.dir/home.c.o -MF CMakeFiles/Mini.dir/home.c.o.d -o CMakeFiles/Mini.dir/home.c.o -c /home/sunil/Development/artsOpengl/home.c
+
+CMakeFiles/Mini.dir/home.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mini.dir/home.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sunil/Development/artsOpengl/home.c > CMakeFiles/Mini.dir/home.c.i
+
+CMakeFiles/Mini.dir/home.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mini.dir/home.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sunil/Development/artsOpengl/home.c -o CMakeFiles/Mini.dir/home.c.s
+
+CMakeFiles/Mini.dir/cafeWall.c.o: CMakeFiles/Mini.dir/flags.make
+CMakeFiles/Mini.dir/cafeWall.c.o: ../../cafeWall.c
+CMakeFiles/Mini.dir/cafeWall.c.o: CMakeFiles/Mini.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Mini.dir/cafeWall.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Mini.dir/cafeWall.c.o -MF CMakeFiles/Mini.dir/cafeWall.c.o.d -o CMakeFiles/Mini.dir/cafeWall.c.o -c /home/sunil/Development/artsOpengl/cafeWall.c
+
+CMakeFiles/Mini.dir/cafeWall.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mini.dir/cafeWall.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sunil/Development/artsOpengl/cafeWall.c > CMakeFiles/Mini.dir/cafeWall.c.i
+
+CMakeFiles/Mini.dir/cafeWall.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mini.dir/cafeWall.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sunil/Development/artsOpengl/cafeWall.c -o CMakeFiles/Mini.dir/cafeWall.c.s
+
+CMakeFiles/Mini.dir/hermanDot.c.o: CMakeFiles/Mini.dir/flags.make
+CMakeFiles/Mini.dir/hermanDot.c.o: ../../hermanDot.c
+CMakeFiles/Mini.dir/hermanDot.c.o: CMakeFiles/Mini.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Mini.dir/hermanDot.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Mini.dir/hermanDot.c.o -MF CMakeFiles/Mini.dir/hermanDot.c.o.d -o CMakeFiles/Mini.dir/hermanDot.c.o -c /home/sunil/Development/artsOpengl/hermanDot.c
+
+CMakeFiles/Mini.dir/hermanDot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mini.dir/hermanDot.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sunil/Development/artsOpengl/hermanDot.c > CMakeFiles/Mini.dir/hermanDot.c.i
+
+CMakeFiles/Mini.dir/hermanDot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mini.dir/hermanDot.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sunil/Development/artsOpengl/hermanDot.c -o CMakeFiles/Mini.dir/hermanDot.c.s
+
+CMakeFiles/Mini.dir/cubeTree.c.o: CMakeFiles/Mini.dir/flags.make
+CMakeFiles/Mini.dir/cubeTree.c.o: ../../cubeTree.c
+CMakeFiles/Mini.dir/cubeTree.c.o: CMakeFiles/Mini.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Mini.dir/cubeTree.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Mini.dir/cubeTree.c.o -MF CMakeFiles/Mini.dir/cubeTree.c.o.d -o CMakeFiles/Mini.dir/cubeTree.c.o -c /home/sunil/Development/artsOpengl/cubeTree.c
+
+CMakeFiles/Mini.dir/cubeTree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mini.dir/cubeTree.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sunil/Development/artsOpengl/cubeTree.c > CMakeFiles/Mini.dir/cubeTree.c.i
+
+CMakeFiles/Mini.dir/cubeTree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mini.dir/cubeTree.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sunil/Development/artsOpengl/cubeTree.c -o CMakeFiles/Mini.dir/cubeTree.c.s
+
+CMakeFiles/Mini.dir/logSpiral.c.o: CMakeFiles/Mini.dir/flags.make
+CMakeFiles/Mini.dir/logSpiral.c.o: ../../logSpiral.c
+CMakeFiles/Mini.dir/logSpiral.c.o: CMakeFiles/Mini.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Mini.dir/logSpiral.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Mini.dir/logSpiral.c.o -MF CMakeFiles/Mini.dir/logSpiral.c.o.d -o CMakeFiles/Mini.dir/logSpiral.c.o -c /home/sunil/Development/artsOpengl/logSpiral.c
+
+CMakeFiles/Mini.dir/logSpiral.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mini.dir/logSpiral.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sunil/Development/artsOpengl/logSpiral.c > CMakeFiles/Mini.dir/logSpiral.c.i
+
+CMakeFiles/Mini.dir/logSpiral.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mini.dir/logSpiral.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sunil/Development/artsOpengl/logSpiral.c -o CMakeFiles/Mini.dir/logSpiral.c.s
+
+CMakeFiles/Mini.dir/taurus.c.o: CMakeFiles/Mini.dir/flags.make
+CMakeFiles/Mini.dir/taurus.c.o: ../../taurus.c
+CMakeFiles/Mini.dir/taurus.c.o: CMakeFiles/Mini.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Mini.dir/taurus.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Mini.dir/taurus.c.o -MF CMakeFiles/Mini.dir/taurus.c.o.d -o CMakeFiles/Mini.dir/taurus.c.o -c /home/sunil/Development/artsOpengl/taurus.c
+
+CMakeFiles/Mini.dir/taurus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mini.dir/taurus.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sunil/Development/artsOpengl/taurus.c > CMakeFiles/Mini.dir/taurus.c.i
+
+CMakeFiles/Mini.dir/taurus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mini.dir/taurus.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sunil/Development/artsOpengl/taurus.c -o CMakeFiles/Mini.dir/taurus.c.s
+
+CMakeFiles/Mini.dir/sphere.c.o: CMakeFiles/Mini.dir/flags.make
+CMakeFiles/Mini.dir/sphere.c.o: ../../sphere.c
+CMakeFiles/Mini.dir/sphere.c.o: CMakeFiles/Mini.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Mini.dir/sphere.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Mini.dir/sphere.c.o -MF CMakeFiles/Mini.dir/sphere.c.o.d -o CMakeFiles/Mini.dir/sphere.c.o -c /home/sunil/Development/artsOpengl/sphere.c
+
+CMakeFiles/Mini.dir/sphere.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mini.dir/sphere.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sunil/Development/artsOpengl/sphere.c > CMakeFiles/Mini.dir/sphere.c.i
+
+CMakeFiles/Mini.dir/sphere.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mini.dir/sphere.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sunil/Development/artsOpengl/sphere.c -o CMakeFiles/Mini.dir/sphere.c.s
+
 # Object files for target Mini
 Mini_OBJECTS = \
 "CMakeFiles/Mini.dir/canvas.c.o" \
 "CMakeFiles/Mini.dir/spiral.c.o" \
 "CMakeFiles/Mini.dir/line.c.o" \
 "CMakeFiles/Mini.dir/fern.c.o" \
-"CMakeFiles/Mini.dir/vicsek.c.o"
+"CMakeFiles/Mini.dir/vicsek.c.o" \
+"CMakeFiles/Mini.dir/home.c.o" \
+"CMakeFiles/Mini.dir/cafeWall.c.o" \
+"CMakeFiles/Mini.dir/hermanDot.c.o" \
+"CMakeFiles/Mini.dir/cubeTree.c.o" \
+"CMakeFiles/Mini.dir/logSpiral.c.o" \
+"CMakeFiles/Mini.dir/taurus.c.o" \
+"CMakeFiles/Mini.dir/sphere.c.o"
 
 # External object files for target Mini
 Mini_EXTERNAL_OBJECTS =
@@ -155,6 +260,13 @@ Mini: CMakeFiles/Mini.dir/spiral.c.o
 Mini: CMakeFiles/Mini.dir/line.c.o
 Mini: CMakeFiles/Mini.dir/fern.c.o
 Mini: CMakeFiles/Mini.dir/vicsek.c.o
+Mini: CMakeFiles/Mini.dir/home.c.o
+Mini: CMakeFiles/Mini.dir/cafeWall.c.o
+Mini: CMakeFiles/Mini.dir/hermanDot.c.o
+Mini: CMakeFiles/Mini.dir/cubeTree.c.o
+Mini: CMakeFiles/Mini.dir/logSpiral.c.o
+Mini: CMakeFiles/Mini.dir/taurus.c.o
+Mini: CMakeFiles/Mini.dir/sphere.c.o
 Mini: CMakeFiles/Mini.dir/build.make
 Mini: /usr/lib/x86_64-linux-gnu/libGLU.so
 Mini: /usr/lib/x86_64-linux-gnu/libglut.so
@@ -162,7 +274,7 @@ Mini: /usr/lib/x86_64-linux-gnu/libGLX.so
 Mini: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 Mini: /usr/lib/x86_64-linux-gnu/libXmu.so
 Mini: CMakeFiles/Mini.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Mini"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sunil/Development/artsOpengl/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable Mini"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Mini.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

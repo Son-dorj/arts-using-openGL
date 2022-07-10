@@ -1,5 +1,5 @@
-CMakeFiles/Mini.dir/spiral.c.o: \
- /home/sunil/Development/artsOpengl/spiral.c /usr/include/stdc-predef.h \
+CMakeFiles/Mini.dir/particle.c.o: \
+ /home/sunil/Development/artsOpengl/particle.c /usr/include/stdc-predef.h \
  /home/sunil/Development/artsOpengl/project.h /usr/include/GL/glut.h \
  /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
  /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \

@@ -1,8 +1,8 @@
-CMakeFiles/Mini.dir/spiral.c.o: \
- /home/sunil/Development/artsOpengl/spiral.c /usr/include/stdc-predef.h \
- /home/sunil/Development/artsOpengl/project.h /usr/include/GL/glut.h \
- /usr/include/GL/freeglut_std.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
+CMakeFiles/Mini.dir/home.c.o: /home/sunil/Development/artsOpengl/home.c \
+ /usr/include/stdc-predef.h /home/sunil/Development/artsOpengl/project.h \
+ /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
+ /usr/include/GL/gl.h /usr/include/GL/glext.h \
+ /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

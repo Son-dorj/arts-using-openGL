@@ -129,6 +129,30 @@ Mini/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/build
 .PHONY : Mini/fast
 
+cafeWall.o: cafeWall.c.o
+.PHONY : cafeWall.o
+
+# target to build an object file
+cafeWall.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/cafeWall.c.o
+.PHONY : cafeWall.c.o
+
+cafeWall.i: cafeWall.c.i
+.PHONY : cafeWall.i
+
+# target to preprocess a source file
+cafeWall.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/cafeWall.c.i
+.PHONY : cafeWall.c.i
+
+cafeWall.s: cafeWall.c.s
+.PHONY : cafeWall.s
+
+# target to generate assembly for a file
+cafeWall.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/cafeWall.c.s
+.PHONY : cafeWall.c.s
+
 canvas.o: canvas.c.o
 .PHONY : canvas.o
 
@@ -152,6 +176,30 @@ canvas.s: canvas.c.s
 canvas.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/canvas.c.s
 .PHONY : canvas.c.s
+
+cubeTree.o: cubeTree.c.o
+.PHONY : cubeTree.o
+
+# target to build an object file
+cubeTree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/cubeTree.c.o
+.PHONY : cubeTree.c.o
+
+cubeTree.i: cubeTree.c.i
+.PHONY : cubeTree.i
+
+# target to preprocess a source file
+cubeTree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/cubeTree.c.i
+.PHONY : cubeTree.c.i
+
+cubeTree.s: cubeTree.c.s
+.PHONY : cubeTree.s
+
+# target to generate assembly for a file
+cubeTree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/cubeTree.c.s
+.PHONY : cubeTree.c.s
 
 fern.o: fern.c.o
 .PHONY : fern.o
@@ -177,6 +225,54 @@ fern.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/fern.c.s
 .PHONY : fern.c.s
 
+hermanDot.o: hermanDot.c.o
+.PHONY : hermanDot.o
+
+# target to build an object file
+hermanDot.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/hermanDot.c.o
+.PHONY : hermanDot.c.o
+
+hermanDot.i: hermanDot.c.i
+.PHONY : hermanDot.i
+
+# target to preprocess a source file
+hermanDot.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/hermanDot.c.i
+.PHONY : hermanDot.c.i
+
+hermanDot.s: hermanDot.c.s
+.PHONY : hermanDot.s
+
+# target to generate assembly for a file
+hermanDot.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/hermanDot.c.s
+.PHONY : hermanDot.c.s
+
+home.o: home.c.o
+.PHONY : home.o
+
+# target to build an object file
+home.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/home.c.o
+.PHONY : home.c.o
+
+home.i: home.c.i
+.PHONY : home.i
+
+# target to preprocess a source file
+home.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/home.c.i
+.PHONY : home.c.i
+
+home.s: home.c.s
+.PHONY : home.s
+
+# target to generate assembly for a file
+home.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/home.c.s
+.PHONY : home.c.s
+
 line.o: line.c.o
 .PHONY : line.o
 
@@ -201,6 +297,54 @@ line.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/line.c.s
 .PHONY : line.c.s
 
+logSpiral.o: logSpiral.c.o
+.PHONY : logSpiral.o
+
+# target to build an object file
+logSpiral.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/logSpiral.c.o
+.PHONY : logSpiral.c.o
+
+logSpiral.i: logSpiral.c.i
+.PHONY : logSpiral.i
+
+# target to preprocess a source file
+logSpiral.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/logSpiral.c.i
+.PHONY : logSpiral.c.i
+
+logSpiral.s: logSpiral.c.s
+.PHONY : logSpiral.s
+
+# target to generate assembly for a file
+logSpiral.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/logSpiral.c.s
+.PHONY : logSpiral.c.s
+
+sphere.o: sphere.c.o
+.PHONY : sphere.o
+
+# target to build an object file
+sphere.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/sphere.c.o
+.PHONY : sphere.c.o
+
+sphere.i: sphere.c.i
+.PHONY : sphere.i
+
+# target to preprocess a source file
+sphere.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/sphere.c.i
+.PHONY : sphere.c.i
+
+sphere.s: sphere.c.s
+.PHONY : sphere.s
+
+# target to generate assembly for a file
+sphere.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/sphere.c.s
+.PHONY : sphere.c.s
+
 spiral.o: spiral.c.o
 .PHONY : spiral.o
 
@@ -224,6 +368,30 @@ spiral.s: spiral.c.s
 spiral.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/spiral.c.s
 .PHONY : spiral.c.s
+
+taurus.o: taurus.c.o
+.PHONY : taurus.o
+
+# target to build an object file
+taurus.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/taurus.c.o
+.PHONY : taurus.c.o
+
+taurus.i: taurus.c.i
+.PHONY : taurus.i
+
+# target to preprocess a source file
+taurus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/taurus.c.i
+.PHONY : taurus.c.i
+
+taurus.s: taurus.c.s
+.PHONY : taurus.s
+
+# target to generate assembly for a file
+taurus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/taurus.c.s
+.PHONY : taurus.c.s
 
 vicsek.o: vicsek.c.o
 .PHONY : vicsek.o
@@ -258,18 +426,39 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Mini"
+	@echo "... cafeWall.o"
+	@echo "... cafeWall.i"
+	@echo "... cafeWall.s"
 	@echo "... canvas.o"
 	@echo "... canvas.i"
 	@echo "... canvas.s"
+	@echo "... cubeTree.o"
+	@echo "... cubeTree.i"
+	@echo "... cubeTree.s"
 	@echo "... fern.o"
 	@echo "... fern.i"
 	@echo "... fern.s"
+	@echo "... hermanDot.o"
+	@echo "... hermanDot.i"
+	@echo "... hermanDot.s"
+	@echo "... home.o"
+	@echo "... home.i"
+	@echo "... home.s"
 	@echo "... line.o"
 	@echo "... line.i"
 	@echo "... line.s"
+	@echo "... logSpiral.o"
+	@echo "... logSpiral.i"
+	@echo "... logSpiral.s"
+	@echo "... sphere.o"
+	@echo "... sphere.i"
+	@echo "... sphere.s"
 	@echo "... spiral.o"
 	@echo "... spiral.i"
 	@echo "... spiral.s"
+	@echo "... taurus.o"
+	@echo "... taurus.i"
+	@echo "... taurus.s"
 	@echo "... vicsek.o"
 	@echo "... vicsek.i"
 	@echo "... vicsek.s"

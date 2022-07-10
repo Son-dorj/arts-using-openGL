@@ -1,5 +1,5 @@
 #include "project.h"
-#include<GL/glut.h>
+
 int points=10000;
 
 void fern()
