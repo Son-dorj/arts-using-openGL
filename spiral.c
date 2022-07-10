@@ -2,17 +2,20 @@
 #include "project.h"
 #include<math.h>
 #include<stdio.h>
-void pattern1()
+#include <time.h>
+void spiral()
 {
+	
+	float radius = 1.0f,x,y;
+	int a=rand()%500,b=rand()%500,c=rand()%500;
 	glBegin(GL_POINTS);
-    float theta,r,x,y;
-  	for(theta=0;theta<360*5;theta++)
-  	{
-    	r=exp(theta/200);
-    	x=r*cos(theta);
-    	y=r*sin(theta);
-    	glColor3f((rand()%200)/200,(rand()%200)/200,(rand()%200)/200);
-    	glVertex2d(x,y);
-    }
-    glEnd();
+	glColor3f((float)a/500,(float)b/500,(float)c/500);
+	for (float angle = 0; angle < 14400; angle += 1)
+	{
+    	x = cos(angle * M_PI / 180) * radius;
+    	y = sin(angle * M_PI / 180) * radius;
+    	radius += 0.1f;
+    	glVertex2f(x, y);
+	}
+	glEnd();
 }

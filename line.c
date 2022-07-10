@@ -1,7 +1,7 @@
 #include "project.h"
 #include<GL/glut.h>
 
-void line1()
+void line()
 {
 	int x=100;
 	glBegin(GL_LINES);

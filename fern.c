@@ -1,16 +1,17 @@
 #include "project.h"
 #include<GL/glut.h>
-int points=5000;
-void fractal1()
+int points=10000;
+
+void fern()
 {
 	typedef GLfloat point2[2];
-	point2 p = {0.0,50.0},newPoint;
+	point2 p = {0,0},newPoint;
 
 
 	double probability[3] = {85, 92, 99};
 
 	glClear ( GL_COLOR_BUFFER_BIT );
-
+	glColor3f(0,1,0);
 
     for(int i=0; i<points; i++)
 	{
@@ -37,8 +38,8 @@ void fractal1()
             p[1]=0.16*p[1];
 	   }
 
-	   newPoint[0]=p[0]*50+250;
-	   newPoint[1]=p[1]*50;
+	   newPoint[0]=p[0]*50;
+	   newPoint[1]=p[1]*50-250;
 	   if(i>100)
 	   {
 		  glBegin(GL_POINTS);
@@ -46,4 +47,5 @@ void fractal1()
           glEnd();
 	   }
 	}
+	glColor3f(0,0,1);
 }
