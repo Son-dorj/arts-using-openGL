@@ -29,6 +29,7 @@ void display(void)
 		case 8: logSpiral();	break;
 		case 9: taurus();	break;
 		case 10: sphere();	break;
+		case 11: exit(0);	break;
 		default:				break;
 	}
 	glutSwapBuffers();
@@ -67,6 +68,7 @@ glutAddMenuEntry("cubeTree",7);
 glutAddMenuEntry("Logarithmic Spiral",8);
 glutAddMenuEntry("taurus",9);
 glutAddMenuEntry("sphere",10);
+glutAddMenuEntry("exit",11);
 glutAttachMenu(GLUT_RIGHT_BUTTON);
 glutReshapeFunc(myReshape);
 glutDisplayFunc(display);
